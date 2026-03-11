@@ -65,55 +65,5 @@ function storData() {
   localStorage.setItem("listarr", JSON.stringify(listarr));
 }
 
-// const inputField = document.querySelector("#taskInput");
-// const allList = document.querySelector("#unorderList");
-// let listarr = JSON.parse(localStorage.getItem("listarr"));
-// listarr.forEach((doli) => {
-//   taskProje(doli);
-// });
 
-// let formArea = document.querySelector("form");
-// formArea.addEventListener("submit", (event) => {
-//   event.preventDefault();
-//   taskProje();
-// });
 
-// function taskProje(doli) {
-//   let list = document.createElement("li");
-//   const icons1 = document.createElement("div");
-//   const icons2 = document.createElement("div");
-
-//   if (inputField.value.length > 0) {
-//     list.innerHTML = `<span>${inputField.value}</span>`;
-//     icons1.innerHTML = `<img class="img1 images" src="icons/house.svg" alt="" />`;
-//     icons2.innerHTML = `<img class="img2 images" src="icons/like.svg" alt="" />`;
-//     list.append(icons1);
-//     list.append(icons2);
-//     allList.append(list);
-//     inputField.value = "";
-//   }
-//   icons1.onclick = () => {
-//     list.remove();
-//     storData();
-//   };
-//   icons2.onclick = () => {
-//     list.classList.toggle("done");
-//     storData();
-//   };
-//   storData();
-
-//   return false;
-// }
-
-// function storData() {
-//   const datas = document.querySelectorAll("li");
-//   listarr = [];
-//   datas.forEach((list) => {
-//     listarr.push({
-//       name: list.innerText,
-//       checked: list.classList.contains("done"),
-//     });
-//   });
-
-//   localStorage.setItem("listarr", JSON.stringify(listarr));
-// }
