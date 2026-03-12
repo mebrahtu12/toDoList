@@ -1,3 +1,4 @@
+// final conflict fixed
 const inputField = document.querySelector("#taskInput");
 const allList = document.querySelector("#unorderList");
 
