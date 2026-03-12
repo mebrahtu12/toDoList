@@ -27,8 +27,8 @@ function taskProje(text, checked = false) {
     list.classList.add("done");
   }
 
-  icons1.innerHTML = `<img class="img1 images" src="icons/house.svg" alt="" />`;
-  icons2.innerHTML = `<img class="img2 images" src="icons/like.svg" alt="" />`;
+  icons1.innerHTML = `<img class="img1 images" src="icons/trash.png" alt="" />`;
+  icons2.innerHTML = `<img class="img2 images" src="icons/check.png" alt="" />`;
 
   list.append(icons1);
   list.append(icons2);
@@ -64,6 +64,8 @@ function storData() {
 
   localStorage.setItem("listarr", JSON.stringify(listarr));
 }
+
+//the code below is my first try before fixing the code
 
 // const inputField = document.querySelector("#taskInput");
 // const allList = document.querySelector("#unorderList");
